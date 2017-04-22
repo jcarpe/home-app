@@ -1,0 +1,14 @@
+{
+  "name": "home-node-app",
+  "version": "1.0.0",
+  "description": "messing around with home stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Carpenito",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
