@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "axios": "^0.16.1",
+    "xml2js": "^0.4.17"
   }
 }

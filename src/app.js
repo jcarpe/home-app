@@ -1,17 +1,16 @@
 const express = require('express');
+const router = require('./routers/index');
 
 function homeApp() {
 
   this.app = express();
 
-  this.configureRootRoute = () => {
-    this.app.get('/', (req, res) => {
-      res.send('test - we got dat node on dat pi');
-    });
+  this.configureRouter = () => {
+    this.app.use(router);
   }
 
   this.init = () => {
-    this.configureRootRoute();
+    this.configureRouter();
 
     this.app.listen( 8080, () => {
       console.log('home app listening on port 8080');
