@@ -9,7 +9,9 @@
   "author": "Joe Carpenito",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "fortune": "^5.2.3",
+    "graphql": "^0.9.6"
   },
   "devDependencies": {
     "axios": "^0.16.1",
